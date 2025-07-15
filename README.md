@@ -21,14 +21,29 @@ It leverages the **LLaMA 3** model via **Groq API**, **Qdrant** as a vector stor
 - **Groq API**: Fast LLM inference using LLaMA3.
 - **Streamlit**: Web interface.
 
----
 
-## ⚙️ Installation
+## Installation
 
-1. **Clone the repo**:
+1- **Clone the repo:**
 
 ~~~bash
 git clone https://github.com/AsmaaIbrahimMoussa/Python-Code-Generator.git
 cd Python-Code-Generator
 ~~~
 
+2- **Install dependencies:**
+
+~~~
+pip install -r requirements.txt
+~~~
+
+3- **run the app:**
+
+~~~
+streamlit run app.py
+~~~
+
+## App Screenshot
+
+![App Screenshot](Question.png)
+![App Screenshot](Answers.png)
